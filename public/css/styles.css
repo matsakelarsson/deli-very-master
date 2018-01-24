@@ -1,0 +1,43 @@
+
+body{
+    font-family: arial;
+     font-size: 18px;
+}
+
+li{
+	font-weight: bold;
+
+}
+
+
+
+#info{
+	background-color: black;
+	color: white;
+	border: 2px dotted #ff9900;
+	margin: 20px;
+	padding: 5px;
+}
+
+button:hover {
+	 background-color: black;
+	 cursor:pointer;
+
+}
+
+button{
+	background-color: white;
+}
+
+table {
+	width: 75%;
+	height: 75%;
+	margin: 20px; 
+	padding: 5px;
+}
+
+#contact {
+	border: 2px dotted #ff9900;
+	margin: 20px 20px;
+	padding: 20px 20px;
+}
