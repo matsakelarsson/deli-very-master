@@ -12,9 +12,7 @@ body{
      margin: 0px 4px;
      background-image: url("http://orig05.deviantart.net/dc13/f/2016/098/e/d/rolly_rocket_by_valenberg-d9y6rvp.gif");
      background-attachment: fixed;
-     background-size: 100%;
-     background-repeat: no-repeat;
-     background-position: center;
+     background-size: contain;
      width: 100%;
      margin-top: 10cm;
 
@@ -36,46 +34,47 @@ input[type="email"] {
 .wrapper {
 	border-radius: 25px;
      display: grid;
-     grid-gap: 4em;
      background-color: #f129cb;
-     height: 33%;
-     opacity: 0.8;
+     opacity: 0.9;
  }
 
  .box {
-
      color: #00bfff;
      border-radius: 5px;
-     padding: 20px;
-     font-size: 150%;
-     width: 70%;
-
+     padding: 30px;
+     font-size: 50px;
 
  }
 
  .a {
      grid-column: 1;
      grid-row: 1;
-         display: block;
-    margin-left: 0%;
-    margin-right: auto;
+     display: block;
+ 	margin-right: auto;
+ 	margin-left: auto;
  }
+
  .b {
+
      grid-column: 2 ;
      grid-row: 1;
-         display: block;
-    margin-left: auto;
-    margin-right: auto;
+     display: block;
+     	margin-right: auto;
+ 	margin-left: auto;
+
  }
+
  .c {
      grid-column: 3 ;
      grid-row: 1 ;
      display: block;
-    margin-left: auto;
-    margin-right: auto;
+     	margin-right: auto;
+ 	margin-left: auto;
+
  }
 
 #contact {
+	font-family: 'Nova Flat';
 	margin: auto;
 	border-radius: 10px;
 	border: 2px dotted #ff9900;
@@ -84,6 +83,8 @@ input[type="email"] {
 	height: auto;
 	color: #f129cb;
 	font-size: 22px;
+	background-color: #00bfff;
+opacity: 0.8;
 }
 
 button{
@@ -99,4 +100,7 @@ button:hover {
 
 }
 
+footer {
+	color: #f129cb;
+}
 
