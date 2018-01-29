@@ -1,43 +1,102 @@
+.head {
+
+	color: #f129cb;	
+    font-family: 'Nova Flat';font-size: 120px;
+    text-align: center;
+}
+
 
 body{
-    font-family: arial;
-     font-size: 18px;
+    font-family: 'Nova Flat';
+     font-size: 14px;
+     margin: 0px 4px;
+     background-image: url("http://orig05.deviantart.net/dc13/f/2016/098/e/d/rolly_rocket_by_valenberg-d9y6rvp.gif");
+     background-attachment: fixed;
+     background-size: 100%;
+     background-repeat: no-repeat;
+     background-position: center;
+     width: 100%;
+     margin-top: 10cm;
+
 }
 
-li{
-	font-weight: bold;
-
-}
-
-
-
-#info{
-	background-color: black;
-	color: white;
+input[type="text"] {
+	border-radius: 1em;
+	font-family: 'Nova Flat';
 	border: 2px dotted #ff9900;
-	margin: 20px;
-	padding: 5px;
+}
+
+input[type="email"] {
+	border-radius: 1em;
+	font-family: 'Nova Flat';
+	border: 2px dotted #ff9900;
+}
+
+
+.wrapper {
+	border-radius: 25px;
+     display: grid;
+     grid-gap: 4em;
+     background-color: #f129cb;
+     height: 33%;
+     opacity: 0.8;
+ }
+
+ .box {
+
+     color: #00bfff;
+     border-radius: 5px;
+     padding: 20px;
+     font-size: 150%;
+     width: 70%;
+
+
+ }
+
+ .a {
+     grid-column: 1;
+     grid-row: 1;
+         display: block;
+    margin-left: 0%;
+    margin-right: auto;
+ }
+ .b {
+     grid-column: 2 ;
+     grid-row: 1;
+         display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .c {
+     grid-column: 3 ;
+     grid-row: 1 ;
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+#contact {
+	margin: auto;
+	border-radius: 10px;
+	border: 2px dotted #ff9900;
+	padding: 1em 1em;
+	width: 15%;
+	height: auto;
+	color: #f129cb;
+	font-size: 22px;
+}
+
+button{
+	background-color: orange;
+	width: 10em;
+	height: 5em;
+	border-radius: 8px;
+	font-family: 'Nova Flat';
 }
 
 button:hover {
-	 background-color: black;
 	 cursor:pointer;
 
 }
 
-button{
-	background-color: white;
-}
 
-table {
-	width: 75%;
-	height: 75%;
-	margin: 20px; 
-	padding: 5px;
-}
-
-#contact {
-	border: 2px dotted #ff9900;
-	margin: 20px 20px;
-	padding: 20px 20px;
-}
