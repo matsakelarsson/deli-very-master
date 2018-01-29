@@ -53,8 +53,9 @@ input[type="email"] {
  .box {
      color: #00bfff;
      font-size: 2.5em;
-     margin: auto;
-     text-align: center;
+ 	margin: auto;
+ 	text-align: center;
+
  }
 
  .a {
@@ -67,16 +68,19 @@ input[type="email"] {
      grid-column: 2;
      grid-row: 1;
      display: block;
+
  }
 
  .c {
      grid-column: 3;
      grid-row: 1;
      display: block;
-
  }
-
+input[type="radio"] {
+   text-align: left;
+}
 #contact {
+    text-align: center;
 	font-family: 'Nova Flat';
 	margin: auto;
 	border-radius: 10px;
@@ -89,6 +93,8 @@ input[type="email"] {
 	background-color: #00bfff;
 	opacity: 0.8;
 }
+
+
 
 button{
 	background-color: orange;
