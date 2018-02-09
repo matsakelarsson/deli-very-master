@@ -1,3 +1,4 @@
+
 .head {
 
 	color: #f129cb;	
@@ -76,9 +77,11 @@ input[type="email"] {
      grid-row: 1;
      display: block;
  }
+
 input[type="radio"] {
    text-align: left;
 }
+
 #contact {
     text-align: center;
 	font-family: 'Nova Flat';
